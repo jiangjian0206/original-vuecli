@@ -1,17 +1,17 @@
 <template>
-  <div class="hello">
+  <div class="goods">
     <h1>{{ msg }}</h1>
-    <router-link to="goods">link to goods page</router-link>
-    
+    <h3>hele is goods page.</h3>
+    <h3>page goods it works.</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'goods',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to the goods page'
     }
   }
 }
@@ -19,7 +19,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1, h2 ,h3{
   font-weight: normal;
 }
 ul {
