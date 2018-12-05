@@ -4,13 +4,13 @@ import Vuex from 'vuex';
 Vue.use(Vuex)
 
 const state = {
-    testMsg: '原始文本',
+    parentTest: '父组件原始文本',
     childText:"子组件原始文本"
 }
 
 const mutations = {
-    changeTestMsg(state, str){
-        state.testMsg = str;
+    changeparentTest(state, str){
+        state.parentTest = str;
     },
     changeChildText(state, str){
         state.childText = str;
