@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <router-link to="goods">link to goods page</router-link>
-    
+    <router-link to="parent">link to parent page</router-link>
   </div>
 </template>
 
